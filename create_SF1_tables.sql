@@ -641,9 +641,12 @@ create table sf1_00005
 );
 -- create any indexes ...
 
--- drop table sf1_00006mod;
-create table sf1_00006mod
- (
+-- drop table sf1_00006;
+create table sf1_00006
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	p0310001			integer, 
 	p0310002			integer, 
@@ -902,9 +905,12 @@ create table sf1_00006mod
 );
 -- create any indexes ...
 
--- drop table sf1_00007mod;
-create table sf1_00007mod
- (
+-- drop table sf1_00007;
+create table sf1_00007
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	p0500001			integer, 
 	p0500002			integer, 
@@ -1160,9 +1166,12 @@ create table sf1_00007mod
 );
 -- create any indexes ...
 
--- drop table sf1_00008mod;
-create table sf1_00008mod
- (
+-- drop table sf1_00008;
+create table sf1_00008
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	p012f001			integer, 
 	p012f002			integer, 
@@ -1420,9 +1429,12 @@ create table sf1_00008mod
 );
 -- create any indexes ...
 
--- drop table sf1_00010mod;
-create table sf1_00010mod
- (
+-- drop table sf1_00010;
+create table sf1_00010
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	p029a001			integer, 
 	p029a002			integer, 
@@ -1679,9 +1691,12 @@ create table sf1_00010mod
 );
 -- create any indexes ...
 
--- drop table sf1_00011mod;
-create table sf1_00011mod
- (
+-- drop table sf1_00011;
+create table sf1_00011
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	p031a001			integer, 
 	p031a002			integer, 
@@ -1940,9 +1955,12 @@ create table sf1_00011mod
 );
 -- create any indexes ...
 
--- drop table sf1_00012mod;
-create table sf1_00012mod
- (
+-- drop table sf1_00012;
+create table sf1_00012
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	p034f001			integer, 
 	p034f002			integer, 
@@ -7036,9 +7054,12 @@ create table sf1_00037
 );
 -- create any indexes ...
 
--- drop table sf1_00038mod;
-create table sf1_00038mod
- (
+-- drop table sf1_00038;
+create table sf1_00038
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	pct020f001			integer, 
 	pct020f002			integer, 
@@ -8072,8 +8093,8 @@ create table sf1_00044
 );
 -- create any indexes ...
 
--- drop table sf1_00045_pt1;
-create table sf1_00045_pt1
+-- drop table sf1_00045;
+create table sf1_00045
  (
 	fileid			varchar(510), 
 	stusab			varchar(510), 
@@ -8314,17 +8335,6 @@ create table sf1_00045_pt1
 	h017b0019			integer, 
 	h017b0020			integer, 
 	h017b0021			integer
-);
--- create any indexes ...
-
--- drop table sf1_00045_pt2;
-create table sf1_00045_pt2
- (
-	fileid			varchar(510), 
-	stusab			varchar(510), 
-	chariter			varchar(510), 
-	cifsn			varchar(510), 
-	logrecno			integer PRIMARY KEY, 
 	h017c0001			integer, 
 	h017c0002			integer, 
 	h017c0003			integer, 
@@ -9036,9 +9046,12 @@ create table sf1_00009
 );
 -- create any indexes ...
 
--- drop table sf1_00015mod;
-create table sf1_00015mod
- (
+-- drop table sf1_00015;
+create table sf1_00015
+ (	fileid			varchar(510), 
+	stusab			varchar(510), 
+	chariter			varchar(510), 
+	cifsn			varchar(510), 
 	logrecno			integer PRIMARY KEY, 
 	pct0010001			integer, 
 	pct0010002			integer, 
