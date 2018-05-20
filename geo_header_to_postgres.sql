@@ -1,3 +1,7 @@
+-- Before running this script, run this statement: 
+-- CREATE TABLE geo_header_staging (data TEXT); 
+-- and load the data from the geographic header file into that table. Then run this script, which parses the record that's stored in the data column into the individual values in geo_header_sf1 based on their character positions
+
 INSERT INTO geo_header_sf1 (fileid, stusab, sumlev, geocomp, chariter, cifsn, logrecno, region, division, state, county, countycc, countysc, cousub, cousubcc, cousubsc, place, placecc, placesc, tract, blkgrp, block, iuc, concit, concitcc, concitsc, aianhh, aianhhfp, aianhhcc, aihhtli, aitsce, aits, aitscc, ttract, tblkgrp, anrc, anrccc, cbsa, cbsasc, metdiv, csa, necta, nectasc, nectadiv, cnecta, cbsapci, nectapci, ua, uasc, uatype, ur, cd, sldu, sldl, vtd, vtdi, reserve2, zcta5, submcd, submcdcc, sdelem, sdsec, sduni, arealand, areawatr, name, funcstat, gcuni, pop100, hu100, intptlat, intptlon, lsadc, partflag, reserve3, uga, statens, countyns, cousubns, placens, concitns, aianhhns, aitsns, anrcns, submcdns, cd113, cd114, cd115, sldu2, sldu3, sldu4, sldl2, sldl3, sldl4, aianhhsc, csasc, cnectasc, memi, nmemi, puma, reserved)
 SELECT
 trim(substring(data,1,6)) AS	fileid,
