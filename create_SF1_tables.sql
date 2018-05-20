@@ -1,14 +1,3 @@
--- drop table data_field_descriptors;
-create table data_field_descriptors
- (
-	sort id			integer, 
-	segment			varchar(4), 
-	table number			varchar(12), 
-	field name			varchar(510), 
-	field code			varchar(20), 
-	decimal			integer
-);
--- create any indexes ...
 
 -- drop table geo_header_sf1;
 create table geo_header_sf1
